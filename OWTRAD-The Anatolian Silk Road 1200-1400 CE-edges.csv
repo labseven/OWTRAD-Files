@@ -190,5 +190,3 @@ loc94-tmc050521,TR,Kars,TR,?Sarikamis,trd,cd,maj,A000,B000,C000,nkn,d000dd,nkn,t
 Kars,TR,loc95-tmc050521,AM,?Gyumri,trd,cd,maj,A000,B000,C000,nkn,d000dd,nkn,t000t,1200,1400,QC3,Anonymous-5. n.d.,43.0975,40.6081,www.fallingrain.com,43.8475,40.7894,www.fallingrain.com,658,2690,P000,tmcTRm1200a_189a
 Igdir,TR,Dogubayazit,TR,link extrapolated by tmciolek,trd,cd,maj,A000,B000,C000,nkn,d000dd,nkn,t000t,1200,1400,QC3,Anonymous-5. n.d.,44.0464,39.9186,www.fallingrain.com,44.0842,39.5469,www.fallingrain.com,2073,239,P001,tmcTRm1200a_190a
 Igdir,TR,Yerevan,TR,link extrapolated by tmciolek,trd,cd,maj,A000,B000,C000,nkn,d000dd,nkn,t000t,1200,1400,QC3,Anonymous-5. n.d.,44.0464,39.9186,www.fallingrain.com,44.5,40.183334,ADL1089301,2073,582,P001,tmcTRm1200a_191a
-"Travel nodes - georeferenced and GIS-ready data (to be used in conjunction with ""Travel Routes"")",,,,,,,,,,,,,,,,,,,,,,,,,,,,
-NODE1,LONG1,LAT1,COUNTRY1,DETAIL,DATASTATUS,NODEID1,DATAID,,,,,,,,,,,,,,,,,,,,,
