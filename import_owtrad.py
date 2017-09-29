@@ -1,3 +1,13 @@
+''' Import the OWTRAD csvs into two pandas dataframes
+
+By default, it looks for the files in ./OWTRAD-Files/
+You can change that by setting the envirnoment variable OWTRAD_DIR
+
+'''
+
+import pandas as pd
+import os
+
 def import_owtrad():
     # Set OWTRAD_DIR to the envirnoment variable, if not set, default to OWTRAD_DIR
     OWTRAD_DIR = os.getenv('OWTRAD_DIR') or "./OWTRAD-Files/"
@@ -21,10 +31,8 @@ def import_owtrad():
 
     print("Imported", len([OWTRAD_DIR + filename for filename in os.listdir(OWTRAD_DIR) if ('routes' in filename or 'edges' in filename)]), 'route files')
 
-
-
-    print(nodes.info())
-    print()
-    print(edges.info())
+    # print(nodes.info())
+    # print()
+    # print(edges.info())
 
     return nodes, edges
