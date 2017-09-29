@@ -3,7 +3,10 @@ Database Files
 
 
 # Naming Scheme:
-```OWTRAD-[Name of dataset]-[nodes routes].csv```
+```OWTRAD-[Name of dataset]-[edges routes].csv```
+
+Note: Change from ```-routes``` to ```-nodes``` because the files have 'routes' in their name and it was confusing
+
 
 Ex:
 ```OWTRAD-North African pilgrimage routes 1300-1900 CE-nodes.csv ```
