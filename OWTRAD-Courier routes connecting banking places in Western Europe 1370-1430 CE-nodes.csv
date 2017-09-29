@@ -23,7 +23,6 @@
 "Siena","11.35","43.3167","IT","nkn","exact","2727","tmcZWEm1400a_043a"
 "Valencia","-.3667","39.4667","ES","nkn","exact","2707","tmcZWEm1400a_055a"
 "Venice","12.326667","45.43861","IT","nkn","exact","323","tmcZWEm1400a_013a"
-
 "Alessandria","8.6167","44.9","IT","nkn","exact","2700","tmcZWEm1400a_032a"
 "Alicante","-.4833","38.35","ES","nkn","exact","2706","tmcZWEm1400a_056a"
 "Ancona","13.5","43.633331","IT","nkn","exact","2","tmcZWEm1400a_018a"
@@ -55,8 +54,7 @@
 "loc13-tmc050601","-2.4667","41.7667","ES","?Soria","exact","2754","tmcZWEm1400a_064a"
 "loc14-tmc050601","-4.7167","41.65","ES","?Valladolid","exact","2755","tmcZWEm1400a_064a"
 "loc15-tmc050601","1.433333","43.599998","FR","?Toulouse ","exact","474","tmcZWEm1400a_066a"
-"loc16-tmc050601",
-"-.566667","44.833332","FR","?Bordeaux","exact","408","tmcZWEm1400a_066a"
+"loc16-tmc050601","-.566667","44.833332","FR","?Bordeaux","exact","408","tmcZWEm1400a_066a"
 "loc17-tmc050601","2.4","47.083332","FR","?Bourges","exact","413","tmcZWEm1400a_068a"
 "loc18-tmc050601","-.35","49.1833","FR","?Caen","exact","2751","tmcZWEm1400a_070a"
 "loc19-tmc050601","-.2","48.45","FR","?Pre-en-Pail","exact","2752","tmcZWEm1400a_071a"
@@ -68,5 +66,3 @@
 "Ragusa","18.088612","42.650555","HR","nkn","exact","920","tmcZWEm1400a_018a"
 "Troyes","4.0833","48.3","FR","nkn","exact","2703","tmcZWEm1400a_002a"
 "Turin","7.6667","45.05","IT","nkn","exact","2728","tmcZWEm1400a_034a"
-
-
