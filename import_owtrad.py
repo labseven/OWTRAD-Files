@@ -1,4 +1,7 @@
-''' Import the OWTRAD csvs into two pandas dataframes
+'''
+WARNING! Concatanation is broken right now! Do not use this until fixed
+
+Import the OWTRAD csvs into two pandas dataframes
 
 By default, it looks for the files in ./OWTRAD-Files/
 You can change that by setting the envirnoment variable OWTRAD_DIR
@@ -35,4 +38,5 @@ def import_owtrad():
     # print()
     # print(edges.info())
 
+    return "WARNING, Broken"
     return nodes, edges
