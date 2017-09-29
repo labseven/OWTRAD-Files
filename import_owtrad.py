@@ -1,6 +1,4 @@
 '''
-WARNING! Concatanation is broken right now! Do not use this until fixed
-
 Import the OWTRAD csvs into two pandas dataframes
 
 By default, it looks for the files in ./OWTRAD-Files/
@@ -21,22 +19,22 @@ def import_owtrad():
     print("Importing OWTRAD files from", OWTRAD_DIR)
 
     nodes = pd.DataFrame()
-    for filename in [OWTRAD_DIR + filename for filename in os.listdir(OWTRAD_DIR) if 'nodes' in filename]:
+    for filename in [OWTRAD_DIR + filename for filename in os.listdir(OWTRAD_DIR) if '-nodes' in filename]:
         new_csv = pd.read_csv(filename.strip(), header=0)
         nodes = pd.concat([nodes, new_csv], ignore_index=True)
 
-    print("Imported", len([OWTRAD_DIR + filename for filename in os.listdir(OWTRAD_DIR) if 'nodes' in filename]), 'node files')
+    print("Imported", len([OWTRAD_DIR + filename for filename in os.listdir(OWTRAD_DIR) if '-nodes' in filename]), 'node files')
 
     edges = pd.DataFrame()
-    for filename in [OWTRAD_DIR + filename for filename in os.listdir(OWTRAD_DIR) if ('routes' in filename or 'edges' in filename)]:
+    for filename in [OWTRAD_DIR + filename for filename in os.listdir(OWTRAD_DIR) if '-edges' in filename]:
         new_csv = pd.read_csv(filename.strip(), header=0)
         edges = pd.concat([edges, new_csv], ignore_index=True)
 
-    print("Imported", len([OWTRAD_DIR + filename for filename in os.listdir(OWTRAD_DIR) if ('routes' in filename or 'edges' in filename)]), 'route files')
+    print("Imported", len([OWTRAD_DIR + filename for filename in os.listdir(OWTRAD_DIR) if '-edges']), 'route files')
 
     # print(nodes.info())
     # print()
     # print(edges.info())
 
-    return "WARNING, Broken"
+
     return nodes, edges
